@@ -1,3 +1,6 @@
+// NIE JEST TO DOBRZE ZROBIONE I DOKOŃCZONE...
+
+
 public class Program1 {
     public static void main(String[] args) {
         
@@ -103,7 +106,7 @@ class MyStackList{
         // dodawanie nowego studenta
 
         //ListElement — pełni nam tylko role dodawania czegoś do stosu
-        ListElement le = new ListElement();
+        ListElement le = new ListElement(head,student);
         le.setData(student); //ustawiamy sobie naszego studenta
         le.setNext(head);
         head = le;
