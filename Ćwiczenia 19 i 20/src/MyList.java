@@ -3,10 +3,11 @@ public
 
     private Element head;
 
+    //metoda mająca za zadanie dodawać elementy
     public void add(Element element){
         if (head != null)
-            element.setNext(head);
-        head = element;
+            element.setNext(head); //jeżeli head nie jest = null -> to następny element = head
+        head = element; //jeżeli head jest równe null -> to head = element
     }
 
     public void addEnd(Element element){
@@ -40,13 +41,13 @@ public
 
     // show ma za zadanie wyświetlić wszystkie tmp.getData
     public void show(){
-        Element tmp = head;
-        while(tmp != null){
+        Element tmp = head; //nadajemy zmiennej typu Element wartość head
+        while(tmp != null){ //kiedy tmp nie jest = null
             //System.out.println(tmp.getData()); - zamiast używać tego
 
             //odwołamy się do tmp.getData().show - by rozwiązać problem
-            tmp.getData().show();
-            tmp = tmp.getNext();
+            tmp.getData().show(); //dostajemy Data i pokazujemy je za pomocą metody show z Zadanie11_cw20
+            tmp = tmp.getNext(); //przypisujemy tmp następny element
         }
     }
 
@@ -55,9 +56,11 @@ public
     }
 
     private void showRe(Element element){
+        //jeżeli element nie jest = null
         if(element != null) {
-            showRe(element.getNext());
-            System.out.println(element.getData());
+            //REKURENCJA
+            showRe(element.getNext()); //bierzemy następny element
+            System.out.println(element.getData()); //wypisujemy informacje na temat elementu
         }
     }
 }

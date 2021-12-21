@@ -1,6 +1,6 @@
 // NIE JEST TO DOBRZE ZROBIONE I DOKOŃCZONE...
 
-
+/*
 public class Program1 {
     public static void main(String[] args) {
         
@@ -124,3 +124,5 @@ class MyStackList{
     }
 }
 // Z WYKORZYSTANIEM LISTY!
+
+ */

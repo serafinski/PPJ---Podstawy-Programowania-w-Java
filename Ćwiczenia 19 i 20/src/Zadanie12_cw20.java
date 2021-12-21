@@ -2,7 +2,11 @@
 
 public class Zadanie12_cw20 {
     public static void main(String[] args) {
+
+        //taka metoda zapisu, bo używamy wcześniej zdefiniowanej klasy Word
         Word ala = new Word();
+
+        //używamy wcześniej zdefiniowanej metody addChar dla klasy Word
         ala.addChar('a');
         ala.addChar('l');
         ala.addChar('a');
@@ -17,11 +21,15 @@ public class Zadanie12_cw20 {
         kota.addChar('t');
         kota.addChar('a');
 
+        //inicjujemy zmienną klasy PhraseList
         PhraseList pl = new PhraseList();
+
+        //używamy metody addWordAtEnd utworzonej dla klasy PhraseList dodającej słowa po sobie
         pl.addWordAtEnd(ala);
         pl.addWordAtEnd(ma);
         pl.addWordAtEnd(kota);
 
+        //używamy metody show utworzonej dla klasy PhraseList
         pl.show();// pokaż nam elementy
 
     }
@@ -29,6 +37,7 @@ public class Zadanie12_cw20 {
 
 // SPOSÓB LISTĄ JEDNOKIERUNKOWĄ
 class PhraseList{
+    //klasa myList — dodana z wykładu!
     private MyList myList; // bazujemy na klasie MyList
 
     public PhraseList(){
@@ -37,11 +46,16 @@ class PhraseList{
 
     public void addWordAtEnd(Word word){
         //trzeba dodać jakiś nowy element, który będzie oczekiwał dostarczenia mu jakiegoś słowa
-        myList.add(new Element(word)); //korzystamy z metody add z MyList
+
+        //korzystamy z Klasy Element — dodana z wykładu
+
+        // tworzymy obiekt klasy Element — który przyjmuje zmienną klasy word
+        myList.add(new Element(word)); //korzystamy z metody add utworzonej dla klasy MyList
     }
 
+    // wywołaj show z tej listy
     public void show(){
-        myList.show(); // wywołaj show z tej listy
+        myList.show(); //korzystamy z metody show utworzonej dla klasy myList
     }
 }
 // SPOSÓB LISTĄ JEDNOKIERUNKOWĄ
