@@ -1,11 +1,6 @@
 public class Zadanie2 {
     public static void main(String[] args) {
-        Osoba osoba = new Osoba("Stanisław");
-        System.out.println(osoba.wyswietl());
-
-        System.out.println();
-
-        Spawacz spawacz = new Spawacz(osoba,15);
+        Spawacz spawacz = new Spawacz("Stanisław",15);
         System.out.println(spawacz.getStazpracy());
         spawacz.wyswietl();
     }
@@ -30,10 +25,15 @@ class Spawacz
         this.stazpracy = stazpracy;
     }
 
+    //nie robić tego — bo neguje istnienie podstawy
+
+    /*
     public Spawacz(Osoba osoba, int stazpracy){
         super(osoba.wyswietl());
         this.stazpracy = stazpracy;
     }
+
+     */
 
     public int getStazpracy() {
         return stazpracy;
@@ -41,6 +41,7 @@ class Spawacz
 
     public String wyswietl(){
         System.out.println(super.wyswietl()+ " " + stazpracy);
+        //metoda wyświetl — jest z klasy bazowej — odwołanie do klasy bazowej
         return super.wyswietl() + " " + stazpracy;
     }
 }

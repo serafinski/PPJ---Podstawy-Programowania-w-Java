@@ -1,10 +1,7 @@
 public class Zadanie3 {
     public static void main(String[] args) {
-        Pojazd pojazd = new Pojazd("czerwony");
 
-        PojazdKolowy pojazdKolowy = new PojazdKolowy(pojazd,2);
-
-        CiagnikSiodlowy ciagnikSiodlowy = new CiagnikSiodlowy(pojazdKolowy,15000);
+        CiagnikSiodlowy ciagnikSiodlowy = new CiagnikSiodlowy("czerwony",2,15000);
 
         ciagnikSiodlowy.rozpocznijJazde();
     }
@@ -29,12 +26,17 @@ class PojazdKolowy
         super(color);
         this.iloscOsi = iloscOsi;
     }
+    /*
+
+    NIE ROBIĆ TEGO!
 
     public PojazdKolowy(Pojazd pojazd, int iloscOsi){
         super(pojazd.getColor());
         this.iloscOsi = iloscOsi;
     }
+     */
 
+    // musimy zrobić getter, bo zmienna iloscOsi jest prywatna!
     public int getIloscOsi() {
         return iloscOsi;
     }
@@ -42,6 +44,8 @@ class PojazdKolowy
 
 class CiagnikSiodlowy
         extends PojazdKolowy{
+    //nie chcemy, żeby jakaś klasa z góry nam zmodyfikowała masę
+    //dlatego private — bo chcemy by nikt nie miał do niego dostępu
     private double masa;
 
 
@@ -50,20 +54,26 @@ class CiagnikSiodlowy
         this.masa = masa;
     }
 
+    /*
+
+    NIE ROBIĆ TEGO!
+
     public CiagnikSiodlowy(PojazdKolowy pojazdKolowy, double masa){
         super(pojazdKolowy.getColor(),pojazdKolowy.getIloscOsi());
         this.masa = masa;
     }
+     */
 
-    public double getMasa() {
-        return masa;
-    }
 
-    public void rozpocznijJazde(){
+
+    //final — nikt dalej nie będzie mógł jej przedefiniowywać
+    final public void rozpocznijJazde(){
         double max_masa_os = 11000;
-        if(getIloscOsi()*max_masa_os<getMasa())
+        //odwołujemy się do samej zmiennej, a nie gettera — bo jest to zmienna w obrębie klasy
+        if(getIloscOsi()*max_masa_os<masa){
             System.out.println("Jazda niebezpieczna, odmowa uruchomienia silnika");
-        else
-            System.out.println("Miłej podrozy!");;
+            return;
+        }
+        System.out.println("Miłej podrozy!");;
     }
 }
