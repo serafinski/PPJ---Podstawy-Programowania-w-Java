@@ -5,7 +5,8 @@ public class Zadanie1 {
 
         System.out.println();
 
-        Prostopadloscian prostopadloscian = new Prostopadloscian(prostokat,15);
+        //Prostopadloscian prostopadloscian = new Prostopadloscian(prostokat,15);
+        Prostopadloscian prostopadloscian = new Prostopadloscian(5,10,15);
         prostopadloscian.pokazPP();
         prostopadloscian.showObj();
 
@@ -16,13 +17,15 @@ public class Zadanie1 {
 
         System.out.println();
 
-        Ostroslup ostroslup = new Ostroslup(trojkat,6);
+        //Ostroslup ostroslup = new Ostroslup(trojkat,6);
+        Ostroslup ostroslup = new Ostroslup(3,6);
         ostroslup.showPP();
         ostroslup.showObj();
 
         System.out.println();
 
-        Graniastoslup graniastoslup = new Graniastoslup(trojkat,6);
+        //Graniastoslup graniastoslup = new Graniastoslup(trojkat,6);
+        Graniastoslup graniastoslup = new Graniastoslup(3,6);
         graniastoslup.showPP();
         graniastoslup.showObj();
     }
@@ -62,6 +65,8 @@ class Prostopadloscian
         this.wysokosc = wysokosc;
     }
 
+    //konstruktory inicjowały wartości pól zarówno na podstawie dostarczonych wartości liczbowych,
+    // jak i obiektu klasy bazowej -> możemy zrobić to, co jest poniżej tylko dlatego, że było tak w poleceniu — normalnie jest to błąd!!!
     public Prostopadloscian(Prostokat prostokat, double wysokosc){
         //druga opcja - konstruktor z 2 parametrami
 
@@ -114,6 +119,8 @@ class Ostroslup
         this.wysokosc = wysokosc;
     }
 
+    //konstruktory inicjowały wartości pól zarówno na podstawie dostarczonych wartości liczbowych,
+    // jak i obiektu klasy bazowej -> możemy zrobić to, co jest poniżej tylko dlatego, że było tak w poleceniu — normalnie jest to błąd!!!
     public Ostroslup(Trojkat trojkat, double wysokosc){
         super(trojkat.getBok());
         this.wysokosc=wysokosc;
@@ -144,6 +151,8 @@ class Graniastoslup
         this.wysokosc = wysokosc;
     }
 
+    //konstruktory inicjowały wartości pól zarówno na podstawie dostarczonych wartości liczbowych,
+    // jak i obiektu klasy bazowej -> możemy zrobić to, co jest poniżej tylko dlatego, że było tak w poleceniu — normalnie jest to błąd!!!
     public Graniastoslup(Trojkat trojkat, double wysokosc){
         super(trojkat.getBok());
         this.wysokosc = wysokosc;
