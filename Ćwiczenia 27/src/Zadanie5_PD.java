@@ -6,11 +6,22 @@ public class Zadanie5_PD {
         String ciag_znakow = "A.B.C.D";
 
         //dodajemy ^ - by nie było nic przed a $ - by nie było nic po wyrażeniu
-        Pattern pattern = Pattern.compile("^[A-Za-z].[A-Za-z].[A-Za-z].[A-Za-z]$");
+
+        //kropka w nawiasie kwadratowym -> symbol alfabetu, a nie znak określający dowolny element!!!
+
+        //NAJLEPSZA OPCJA
+        Pattern pattern = Pattern.compile("(\\w[.]){3}\\w");
+
+        //PIERWOTNA OPCJA PROPONOWANA PRZEZ DR TOMASZEWSKIEGO
+        //Pattern pattern = Pattern.compile("([A-Za-z][.]){3}[A-Za-z]");
+
+        //MOJA PIERWOTNA OPCJA
+        //Pattern pattern = Pattern.compile("^[A-Za-z][.][A-Za-z][.][A-Za-z][.][A-Za-z]$");
+
         //z czym ma porównywać -> ze wpisanym tekstem
         Matcher matcher = pattern.matcher(ciag_znakow);
         //sprawdź, czy całe wyrażenie spełnia kryteria
-        System.out.println(matcher.find());
+        System.out.println(matcher.matches());
         //wypisz to wyrażenie
         System.out.println(matcher.group());
     }

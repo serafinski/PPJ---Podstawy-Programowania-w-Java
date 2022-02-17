@@ -5,35 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ded89f7c-cbbe-41ec-831e-69bc2cf83c49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Ćwiczenia 26/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ćwiczenia 26/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ćwiczenia 26/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ćwiczenia 26/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ćwiczenia 26/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ćwiczenia 26/.idea/Ćwiczenia 26.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ćwiczenia 26/Zadanie1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ćwiczenia 26/Zadanie2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ćwiczenia 26/Zadanie3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ćwiczenia 26/Zadanie4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ćwiczenia 26/out/production/Ćwiczenia 26/.idea/Ćwiczenia 26.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ćwiczenia 26/tekst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Ćwiczenia 27/Zadanie1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Ćwiczenia 27/Zadanie2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task2802.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zadanie1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zadanie2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zadanie3_Tomaszewski_version.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zadanie4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zadanie5_PD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zadanie6_PD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liczba.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liczba_zmieniona.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ćwiczenia 27.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ćwiczenia 26/Zadanie5_Task2704.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ćwiczenia 25/out/production/14.01/inputData1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ćwiczenia 25/out/production/14.01/inputData1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ćwiczenia 25/out/production/14.01/inputData2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ćwiczenia 25/out/production/14.01/inputData2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ćwiczenia 25/out/production/14.01/inputData3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ćwiczenia 25/out/production/14.01/inputData3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ćwiczenia 25/out/production/14.01/inputData4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ćwiczenia 25/out/production/14.01/inputData4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ćwiczenia 25/src/inputData1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ćwiczenia 25/src/inputData1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ćwiczenia 25/src/inputData2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ćwiczenia 25/src/inputData2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ćwiczenia 25/src/inputData3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ćwiczenia 25/src/inputData3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ćwiczenia 25/src/inputData4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ćwiczenia 25/src/inputData4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ćwiczenia 25/src/inputDataOut.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ćwiczenia 25/src/inputDataOut.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ćwiczenia 26/out/production/Ćwiczenia 26/MojSkaner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ćwiczenia 26/out/production/Ćwiczenia 26/MojSkaner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ćwiczenia 26/out/production/Ćwiczenia 26/PNWReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ćwiczenia 26/out/production/Ćwiczenia 26/PNWReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ćwiczenia 26/out/production/Ćwiczenia 26/Zadanie3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ćwiczenia 26/out/production/Ćwiczenia 26/Zadanie3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ćwiczenia 27/Task2802.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ćwiczenia 27/Zadanie5_PD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ćwiczenia 27/Zadanie5_PD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ćwiczenia 27/Zadanie6_PD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ćwiczenia 27/liczba_zmieniona.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2802.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zadanie5_PD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zadanie5_PD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zadanie6_PD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zadanie6_PD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liczba_zmieniona.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,29 +69,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last.edited.regexp" value="A.B.C.E" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ćwiczenia 26" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.Task2802">
+  <component name="RunManager" selected="Application.Zadanie6_PD">
     <configuration name="Task2802" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task2802" />
-      <module name="Ćwiczenia 27" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Zadanie3_Tomaszewski_version" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Zadanie3_Tomaszewski_version" />
-      <module name="Ćwiczenia 27" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Zadanie4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Zadanie4" />
       <module name="Ćwiczenia 27" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,13 +97,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zadanie6_PD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zadanie6_PD" />
+      <module name="Ćwiczenia 27" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="Ćwiczenia 27" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task2802" />
+        <item itemvalue="Application.Zadanie6_PD" />
         <item itemvalue="Application.Zadanie6_PD" />
         <item itemvalue="Application.Zadanie5_PD" />
-        <item itemvalue="Application.Zadanie4" />
-        <item itemvalue="Application.Zadanie3_Tomaszewski_version" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Task2802" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +132,14 @@
       <workItem from="1643122058020" duration="4919000" />
       <workItem from="1643214291332" duration="6698000" />
       <workItem from="1643227722269" duration="379000" />
+      <workItem from="1643374866414" duration="2022000" />
+      <workItem from="1643391356653" duration="4000" />
+      <workItem from="1643765356846" duration="93000" />
+      <workItem from="1643765489160" duration="22000" />
+      <workItem from="1643765567783" duration="833000" />
+      <workItem from="1643803412312" duration="7013000" />
+      <workItem from="1645033242426" duration="3631000" />
+      <workItem from="1645104444365" duration="2203000" />
     </task>
     <servers />
   </component>
